@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Барбершоп "Бородинский"</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <a href="" class="page-header__logo">
+                <img class="page-header__logo-image" src="img/content-logo.png" alt="Барбершоп Бородинский" width="226" height="30">
+            </a>
+            <nav class="main-nav">
+                <button class="main-nav__toggle" type="button">Open menu</button>
+                <div class="main-nav__wrapper">
+                    <ul class="main-nav__list site-list">
+                    <li class="site-list__item--active">
+                        <a href="">Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="">Наши работы</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="">Записаться</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="">Контакты</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="">Html academy</a>
+                    </li>
+                    </ul>
+                    <ul class="main-nav__list user-list">
+                        <li class="user-list__item">
+                            <a href="" class="user-list__login">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="page-main">
+            <section class="record">
+                <a href="" class="record__to-main button">На главную</a>
+                <form action="https://echo.htmlacademy.ru" method="POST" class="record__form form">
+                    <h2 class="form__title">Запись на стрижку</h2>
+                    <fieldset class="form-name">
+                        <input type="text" name="surname" class="form-name__surname" placeholder="Фамилия">
+                        <input type="text" name="name" class="form-name__name" placeholder="Имя">
+                        <input type="text" name="last-name" class="form-name__last-name" placeholder="Отчество">
+                    </fieldset>
+                    <fieldset class="form-contacts">
+                        <input type="tel" name="mobile" class="form-contacts__tel" placeholder="Контактный телефон">
+                        <input type="email" name="email" class="form-contacts__email"placeholder="Контактный e-mail">
+                    </fieldset>
+                    <fieldset class="form-info">
+                        <textarea name="master-info" id="master-info" cols="30" rows="10" class="form-info__master-info" placeholder="Доп. информация для мастера"></textarea>
+                    </fieldset>
+                    <fieldset class="form-beard">
+                        <h2 class="form-beard__title">Выберите модель бороды</h2>
+                        <label for="admiral">адмирал</label><input type="radio" name="admiral" class="form-beard__radio--checked" checked>
+                        <label for="lesorub">лесоруб</label><input type="radio" name="lesorub" class="form-beard__radio">
+                        <label for="polyarnik">полярник</label><input type="radio" name="polyarnik">
+                        <label for="boyarin">боярин</label><input type="radio" name="boyarin">
+                        <label for="mudrec">мудрец</label><input type="radio" name="mudrec">
+                    </fieldset>
+                    <fieldset class="form-services">
+                        <h2 class="form-services__title">Дополнительные услуги</h2>
+                        <label for="color">Подкрасить бороду</label><input name="color" type="checkbox" class="form-services__checkbox--checked" checked>
+                        <label for="wind-mustache">Накрутить усы</label><input type="checkbox"name="wind-mustache" class="form-services__checkbox--checked" checked>
+                        <label for="comb-beard">Причесать бороду</label><input type="checkbox" name="comb-beard"class="form-services__checkbox">
+                        <label for="trim">Подровнять виски</label><input type="checkbox" name="trim"class="form-services__checkbox">
+                        <label for="remove-gray">Убрать седину</label><input type="checkbox" name="remove-gray"class="form-services__checkbox">
+                        <label for="bald-spot">Отполировать лысину</label><input type="checkbox" name="bald-spot"class="form-services__checkbox">
+                    </fieldset>
+                    <input type="submit" name="submit" id="submit" value="Отправить заявку" class="form__submit">
+                </form>
+            </section>
+        </main>
+        <footer class="page-footer">
+                <div class="page-footer__wrapper">
+                    <div class="page-footer__contacts contacts">
+                        <b class="contacts__title">Барбершоп Бородинский</b>
+                        <p class="contacts__text">г. Санкт-Петербург, ул. Большая <br>Конюшенная 19/8
+                            <br><a class="contacts__phone" href="tel:+78125556666">
+                                <span class="contacts__phone-mobile">Тел.:</span>+7 (812) 555-66-66</a>
+                        </p>
+                    </div>
+                    <div class="page-footer__social social">
+                        <ul class="social__list">
+                            <li class="social__item">
+                                <a class="social__link social__link--vk" href="">VK</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link social__link--fb" href="">FB</a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link social__link--insta" href="">INSTA</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+    </body>
+</html>
