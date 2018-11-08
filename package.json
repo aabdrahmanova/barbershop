@@ -1,0 +1,35 @@
+{
+  "name": "barber",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-livereload": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "build": "gulp sass",
+    "start": "npm run build && npm run open",
+    "open": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aabdrahmanova/barbershop.git"
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Alsu A.",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/aabdrahmanova/barbershop/issues"
+  },
+  "homepage": "https://github.com/aabdrahmanova/barbershop#readme"
+}
